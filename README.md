@@ -56,6 +56,5 @@ This pipeline processes anonymized mobile phone connection data to determine **m
 - All time-based rules assume timestamps are localized.
 - `site_id` is an abstracted representation of physical cell towers.
 - Only users with detectable activity in the selected region (code 13) are considered.
-- In case of ties, the most frequent site (by weight) is chosen using `ROW_NUMBER()`.
 
 ---
