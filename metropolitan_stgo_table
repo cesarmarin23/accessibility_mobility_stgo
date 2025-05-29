@@ -1,0 +1,14 @@
+
+CREATE OR REPLACE TABLE
+  `xdr.sanhel_metroregion` AS (
+  SELECT
+    t.*
+  FROM
+    `xdr.2023` AS t
+  JOIN
+    `xdr.cells2023` AS c
+  ON
+    t.cell_id = c.cell_id
+  WHERE
+    c.region_code = 13
+)
