@@ -58,3 +58,7 @@ This pipeline processes anonymized mobile phone connection data to determine **m
 - Only users with detectable activity in the selected region (code 13) are considered.
 
 ---
+
+Cesar Marin-Flores
+Leo Ferres
+Henrikki Tenkanen
